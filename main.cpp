@@ -93,7 +93,7 @@ int main() {
   /* We want to loop for 5 seconds */
   snd_pcm_hw_params_get_period_time(params,
                                          &val, &dir);
-  loops = 5000000 / val;
+  loops = 10000000 / val;
 
 
   while (loops > 0) {
