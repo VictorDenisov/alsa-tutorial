@@ -1,3 +1,3 @@
 #!/bin/bash
 
-aplay -t raw -f S16_LE -c2 -r44100 sample.wav
+aplay -t raw -f S16_LE -c1 -r44100 sample.wav
